@@ -1,5 +1,3 @@
-@use 'colors';
-
 *,
 *::before,
 *::after {
@@ -19,7 +17,7 @@ body {
 	min-height: 100vh;
 	font-family: 'Cinzel', serif;
 	font-family: 'Open Sans', sans-serif;
-	background-image: radial-gradient(#52796F, #62877e);
+	background-image: radial-gradient(#52796f, #62877e);
 }
 
 .tipShare {
@@ -28,9 +26,9 @@ body {
 	margin: 5vh 5vw;
 	width: 100vw;
 	max-width: 500px;
-	background-color: #CAD2C5;
+	background-color: #cad2c5;
 	border-radius: 8px;
-    box-shadow: 3px 3px 5px #2f3e46bf;
+	box-shadow: 3px 3px 5px #2f3e46bf;
 	overflow: auto;
 
 	&__top {
@@ -40,12 +38,12 @@ body {
 		align-items: center;
 		padding: 2em 3em;
 		height: 150px;
-		background-color: #354F52;
+		background-color: #354f52;
 
 		&-title {
 			margin-bottom: 0.5em;
 			font-size: 2.8rem;
-			color: #CAD2C5;
+			color: #cad2c5;
 		}
 
 		&-input {
@@ -55,12 +53,12 @@ body {
 			border: none;
 			border-radius: 5px;
 
-            &::placeholder {
-                    color: #2F3E46;
-            }
+			&::placeholder {
+				color: #2f3e46;
+			}
 
 			&:focus {
-				outline: 2px solid #84A98C;
+				outline: 2px solid #84a98c;
 			}
 		}
 	}
@@ -71,7 +69,7 @@ body {
 		align-items: center;
 		padding: 1.5em;
 		font-size: 2rem;
-        color: #2F3E46;
+		color: #2f3e46;
 
 		&-label {
 			margin-bottom: 5px;
@@ -83,16 +81,16 @@ body {
 			padding: 4px 7px;
 			width: auto;
 			font-size: 1.6rem;
-            color: #2F3E46;
+			color: #2f3e46;
 			border: none;
 			border-radius: 5px;
 
-            &::placeholder {
-                color: #2F3E46;
-        }
+			&::placeholder {
+				color: #2f3e46;
+			}
 
 			&:focus {
-				outline: 2px solid #52796F;
+				outline: 2px solid #52796f;
 			}
 		}
 
@@ -106,23 +104,47 @@ body {
 			margin-bottom: 15px;
 			padding: 0.7em 1.4em;
 			font-weight: bold;
-            color: #2F3E46;
+			color: #2f3e46;
 			background: none;
-            border: 2px solid #52796F;
+			border: 2px solid #52796f;
 			border-radius: 5px;
 			cursor: pointer;
 			transition: border 0.3s;
 
 			&:hover {
-				border: 2px solid #2F3E46;
-                background-color: #84A98C;
+				border: 2px solid #2f3e46;
+				background-color: #84a98c;
 			}
 
-            &:active {
-                background-color: #354F52;
-                color: #CAD2C5;
-                box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.579);
-            }
+			&:active {
+				background-color: #354f52;
+				color: #cad2c5;
+				box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.579);
+			}
+		}
+
+		&-reset {
+            margin-right: 10px;
+			margin-bottom: 15px;
+			padding: 0.7em 1.4em;
+			font-weight: bold;
+			color: rgb(155, 25, 25);
+			background: none;
+			border: 2px solid rgba(255, 0, 0, 0.679);
+			border-radius: 5px;
+			cursor: pointer;
+			transition: border 0.3s;
+
+			&:hover {
+				border: 2px solid rgb(174, 15, 15);
+				background-color: rgba(255, 0, 0, 0.341);
+			}
+
+			&:active {
+				background-color: #354f52;
+				color: #cad2c5;
+				box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.579);
+			}
 		}
 	}
 }
