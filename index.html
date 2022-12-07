@@ -22,12 +22,13 @@
             <input type="number" class="tipShare__top-input" placeholder="Wprowadź kwotę...">
         </div>
         <div class="tipShare__bottom">
-            <label for="people" class="tipShare__bottom-label1">Ilość osób:</label>
-            <input type="number" class="tipShare__bottom-input" placeholder="Ilość osób">
+            <label for="people" class="tipShare__bottom-label">Ilość osób:</label>
+            <input type="number" min="1" step="1" class="tipShare__bottom-input" placeholder="Ilość osób...">
 
-            <label for="tip" class="tipShare__bottom-label2">Napiwek:</label>
-            <select id="tip" class="tipShare__bottom-select">
-                <option value="0" selected disabled>--wybierz napiwek--</option>
+            <label for="tip" class="tipShare__bottom-label">Napiwek:</label>
+            <select id="tip" class="tipShare__bottom-input">
+                <option value="0" selected disabled>--wybierz napiwek--
+                </option>
                 <option value="0.05">5%</option>
                 <option value="0.1">10%</option>
                 <option value="0.15">15%</option>

@@ -27,6 +27,7 @@ body {
 	flex-direction: column;
 	margin: 5vh 5vw;
 	width: 100vw;
+    max-width: 500px;
 	background-color: colors.$white;
 	border-radius: 8px;
 	overflow: auto;
@@ -36,14 +37,14 @@ body {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		padding: 2em;
+		padding: 2em 3em;
 		height: 150px;
 		background-color: colors.$main;
 
 		&-title {
 			margin-bottom: 0.5em;
 			font-size: 2.8rem;
-            color: colors.$main-text;
+			color: colors.$main-text;
 		}
 
 		&-input {
@@ -59,11 +60,40 @@ body {
 		}
 	}
 
-    &__bottom {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 1.5em;
-        font-size: 1.6rem;
-    }
+	&__bottom {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 1.5em;
+		font-size: 2rem;
+
+		&-label {
+			margin-bottom: 5px;
+			font-weight: bold;
+		}
+
+		&-input {
+			margin-bottom: 15px;
+			padding: 4px 7px;
+			width: auto;
+			font-size: 1.6rem;
+			border: none;
+			border-radius: 5px;
+		}
+
+		&-error {
+			margin-bottom: 15px;
+			font-size: 1.6rem;
+            color: red;
+		}
+
+		&-calc {
+			margin-bottom: 15px;
+			padding: 0.7em 1.4em;
+            font-weight: bold;
+            background: none;
+            border-radius: 5px;
+            cursor: pointer;
+		}
+	}
 }
