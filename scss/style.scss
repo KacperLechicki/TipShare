@@ -130,7 +130,7 @@ body {
 			font-weight: bold;
 			color: rgb(155, 25, 25);
 			background: none;
-			border: 2px solid rgba(255, 0, 0, 0.679);
+			border: 2px solid rgba(255, 0, 0, 0.7);
 			border-radius: 5px;
 			cursor: pointer;
 			transition: border 0.3s;
@@ -141,8 +141,8 @@ body {
 			}
 
 			&:active {
-				background-color: #354f52;
-				color: #cad2c5;
+				background-color: rgb(108, 15, 15);
+				color: rgba(255, 0, 0, 0.7);
 				box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.579);
 			}
 		}
