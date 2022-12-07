@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TipShare</title>
+    <title>BillSplitter</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Open+Sans:wght@400;700&display=swap"
@@ -18,10 +18,26 @@
 
     <div class="tipShare">
         <div class="tipShare__top">
-            <h1 class="tipShare__top-title">TipShare</h1>
+            <h1 class="tipShare__top-title">BillSplitter</h1>
             <input type="number" class="tipShare__top-input" placeholder="Wprowadź kwotę...">
         </div>
-        <div class="tipShare__bottom"></div>
+        <div class="tipShare__bottom">
+            <label for="people" class="tipShare__bottom-label1">Ilość osób:</label>
+            <input type="number" class="tipShare__bottom-input" placeholder="Ilość osób">
+
+            <label for="tip" class="label-tip">Napiwek:</label>
+            <select id="tip" class="select-tip">
+                <option value="0" selected disabled>--wybierz napiwek--</option>
+                <option value="0.05">5%</option>
+                <option value="0.1">10%</option>
+                <option value="0.15">15%</option>
+            </select>
+
+            <p class="error">error</p>
+            <button class="calc">Oblicz</button>
+
+            <p class="cost-info">Kwota: <span class="cost"></span>zł</p>
+        </div>
     </div>
 
     <script src="./js/script.js"></script>
