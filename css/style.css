@@ -11,6 +11,46 @@ html {
 }
 
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   min-height: 100vh;
+  font-family: "Cinzel", serif;
+  font-family: "Open Sans", sans-serif;
   background-image: radial-gradient(rgb(104, 190, 104), rgb(146, 202, 146));
+}
+
+.tipShare {
+  display: flex;
+  flex-direction: column;
+  margin: 5vh 5vw;
+  width: 100vw;
+  height: 90vh;
+  background-color: rgb(222, 222, 222);
+  border-radius: 8px;
+  overflow: auto;
+}
+.tipShare__top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  height: 150px;
+  background-color: rgb(21, 170, 21);
+}
+.tipShare__top-title {
+  margin-bottom: 0.5em;
+  font-size: 2.8rem;
+  color: rgb(1, 32, 1);
+}
+.tipShare__top-input {
+  padding: 4px 7px;
+  width: 100%;
+  font-size: 1.8rem;
+  border: none;
+  border-radius: 5px;
+}
+.tipShare__top-input:focus {
+  outline: 2px solid rgb(5, 82, 3);
 }/*# sourceMappingURL=style.css.map */
