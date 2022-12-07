@@ -37,7 +37,8 @@ const resetInputs = () => {
 	billInput.value = '';
 	peopleInput.value = '';
 	tips.value = '0';
-    cost.textContent = '';
+	cost.textContent = '';
+	error.style.visibility = 'hidden';
 };
 
 calcBtn.addEventListener('click', validate);
