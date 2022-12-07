@@ -1,4 +1,4 @@
 ==> https://kacperlechicki.github.io/TipShare/ <==
 
-# ** BillSplitter Application **
+# **BillSplitter Application**
 ### made for javascript and html/scss quick training
