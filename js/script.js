@@ -14,7 +14,7 @@ error.style.visibility = 'hidden';
 console.log(peopleInput.value);
 
 const validate = () => {
-	if (billInput.value == '' || peopleInput.value == '' || tips.value == '0') {
+	if (billInput.value == '' || peopleInput.value == '') {
 		error.textContent = 'Uzupełnij wszystkie dane!';
 		error.style.visibility = 'visible';
 		cost.textContent = '';

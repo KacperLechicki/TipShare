@@ -142,4 +142,7 @@ body {
   background-color: rgb(108, 15, 15);
   color: rgba(255, 0, 0, 0.7);
   box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.579);
+}
+.tipShare__bottom-cost {
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */
