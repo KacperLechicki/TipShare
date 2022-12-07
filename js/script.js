@@ -18,6 +18,10 @@ const validate = () => {
 		error.textContent = 'Uzupełnij wszystkie dane!';
 		error.style.visibility = 'visible';
 		cost.textContent = '';
+	} else if (billInput.value == '0' || peopleInput.value == '0') {
+		error.textContent = 'Kwota i ilość osób muszą być większe od 0!';
+		error.style.visibility = 'visible';
+		cost.textContent = '';
 	} else {
 		error.style.visibility = 'hidden';
 		calc();
