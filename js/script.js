@@ -22,6 +22,13 @@ const validate = () => {
 		error.textContent = 'Kwota i ilość osób muszą być większe od 0!';
 		error.style.visibility = 'visible';
 		cost.textContent = '';
+	} else if (
+		parseFloat(billInput.value) < 0 ||
+		parseInt(Math.floor(peopleInput.value)) < 0
+	) {
+		error.textContent = 'Kwota i ilość osób nie mogą być ujemne!';
+		error.style.visibility = 'visible';
+		cost.textContent = '';
 	} else {
 		error.style.visibility = 'hidden';
 		calc();
