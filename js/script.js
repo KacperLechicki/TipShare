@@ -31,6 +31,7 @@ const calc = () => {
 
 	const price = (bill + bill * tip) / people;
 	cost.textContent = price.toFixed(2).toString();
+	cost.style.fontWeight = 'bold';
 };
 
 const resetInputs = () => {
