@@ -19,14 +19,15 @@
     <div class="tipShare">
         <div class="tipShare__top">
             <h1 class="tipShare__top-title">BillSplitter</h1>
-            <input type="number" class="tipShare__top-input" placeholder="Wprowadź kwotę...">
+            <input type="number" min="0" class="tipShare__top-input" placeholder="Wprowadź kwotę...">
         </div>
         <div class="tipShare__bottom">
             <label for="people" class="tipShare__bottom-label">Ilość osób:</label>
-            <input type="number" min="1" step="1" class="tipShare__bottom-input" placeholder="Ilość osób...">
+            <input type="number" min="1" step="1" class="tipShare__bottom-input people-input"
+                placeholder="Ilość osób...">
 
             <label for="tip" class="tipShare__bottom-label">Napiwek:</label>
-            <select id="tip" class="tipShare__bottom-input">
+            <select id="tip" class="tipShare__bottom-input tip-input">
                 <option value="0" selected disabled>--wybierz napiwek--
                 </option>
                 <option value="0.05">5%</option>

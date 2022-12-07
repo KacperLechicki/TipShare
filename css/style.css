@@ -52,6 +52,15 @@ body {
   border: none;
   border-radius: 5px;
 }
+.tipShare__top-input::-moz-placeholder {
+  color: #2F3E46;
+}
+.tipShare__top-input:-ms-input-placeholder {
+  color: #2F3E46;
+}
+.tipShare__top-input::placeholder {
+  color: #2F3E46;
+}
 .tipShare__top-input:focus {
   outline: 2px solid #84A98C;
 }
@@ -75,6 +84,15 @@ body {
   color: #2F3E46;
   border: none;
   border-radius: 5px;
+}
+.tipShare__bottom-input::-moz-placeholder {
+  color: #2F3E46;
+}
+.tipShare__bottom-input:-ms-input-placeholder {
+  color: #2F3E46;
+}
+.tipShare__bottom-input::placeholder {
+  color: #2F3E46;
 }
 .tipShare__bottom-input:focus {
   outline: 2px solid #52796F;
